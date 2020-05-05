@@ -67,7 +67,7 @@ public class DoctorsAPI extends HttpServlet {
 		 String output = doctorObj.updateDoctor(paras.get("hidDoctorIDSave").toString(),
 		 paras.get("doctorName").toString(),
 		 paras.get("doctorAddress").toString(),
-		 paras.get("doctorEmail").toString(),
+		 paras.get("doctorEmail").toString().replace("%", "@"),
 		paras.get("doctorPhone").toString(),
 		paras.get("doctorSpec").toString());
 		 

@@ -17,8 +17,7 @@
 
 				<h1>Doctor Module</h1>
 
-				<form id="formDoctor" name="formDoctor" method="post"
-					action="doctors.jsp">
+				<form id="formDoctor" name="formDoctor" name="formDoctor" method="post" action="doctor.jsp">
 					Doctor Name: <input id="doctorName" name="doctorName" type="text"
 						class="form-control form-control-sm"> <br> Doctor
 					Address: <input id="doctorAddress" name="doctorAddress" type="text"
